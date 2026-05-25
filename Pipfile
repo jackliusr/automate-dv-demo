@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 dbt-core = "==1.1.1"
-dbt-snowflake = "*"
+dbt-postgres = "*"
 
 [requires]
 python_version = "3.9"
