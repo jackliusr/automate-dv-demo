@@ -1,15 +1,15 @@
 version: 2
 
 sources:
-  - name: tpch_sample
-    database: pg_sample_data
+  - name: tpch
+    database: tpch
     schema: public
     tables:
-      - name: LINEITEM
-      - name: CUSTOMER
-      - name: ORDERS
-      - name: PARTSUPP
-      - name: SUPPLIER
-      - name: PART
-      - name: NATION
-      - name: REGION
+      - name: lineitem
+      - name: customer
+      - name: orders
+      - name: partsupp
+      - name: supplier
+      - name: part
+      - name: nation
+      - name: region

@@ -1,5 +1,5 @@
-name: dbtvault_snowflake_demo
-profile: dbtvault_snowflake_demo
+name: pg_sample_data
+profile: pg_sample_data
 version: '5.4.0'
 require-dbt-version: ['>=1.0.0', '<2.0.0']
 config-version: 2
@@ -23,7 +23,7 @@ vars:
   tpch_size: 10 #1, 10, 100, 1000, 10000
 
 models:
-  dbtvault_snowflake_demo:
+  pg_sample_data:
     raw_stage:
       +materialized: view
       +tags:

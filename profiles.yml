@@ -1,0 +1,12 @@
+pg_sample_data:
+  outputs:
+    dev:
+      dbname: tpch 
+      host: localhost
+      pass: Passw0rd
+      port: 5432
+      schema: public 
+      threads: 1
+      type: postgres
+      user: dev
+  target: dev
